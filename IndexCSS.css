@@ -37,7 +37,7 @@ ul {
   .oldal{
     background-color: rgb(34, 34, 34);
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     color: white;
     margin-top: -1.5%;
   }
@@ -49,6 +49,44 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
+  }
+  .oldal3{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 80vh;
+    color: white;
+    margin-top: -1.5%;
+  }
+  .pk{
+    padding-top: -20vh;
+    margin-top: -2.5vh;
+    margin-left: 30vh;
+    position: absolute;
+    font-style: italic;
+  }
+  #pk2{
+    margin-top: -2.5vh;
+    position: absolute;
+    margin-left: 5.5vh;
+    font-style: italic;
+  }
+  #pk3{
+    margin-top: -2.5vh;
+    position: absolute;
+    margin-left: 3.5vh;
+    font-style: italic;
+  }
+  #pk4{
+    margin-top: -2.5vh;
+    position: absolute;
+    margin-left: 15vh;
+    font-style: italic;
+  }
+  #pk5{
+    margin-top: -2.5vh;
+    position: absolute;
+    margin-left: 12vh;
+    font-style: italic;
   }
   #spec{
     text-align: center;
@@ -125,8 +163,8 @@ ul {
     grid-template-rows: repeat(9, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    width: 50%;
-    height: 40vh;
+    width: 68%;
+    height: 60vh;
     padding-right: 1vh;
    
     margin: 0 auto;
@@ -138,10 +176,10 @@ ul {
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10; }
     .gallery__img {
-        width: 100%;
+        width: 90%;
         height: 100%;
         object-fit: cover;
-       
+        background-position-y: 5vh;
     }
   h5{
     color:darkgray;
