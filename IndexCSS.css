@@ -57,6 +57,36 @@ ul {
     color: white;
     margin-top: -1.5%;
   }
+  #nyitvatartas{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+    margin-top: 22vh;
+  }
+  #szer{
+    float: left;
+    margin-top: -3vh;
+    margin-left: 30.5vh;
+    text-align: right;
+    font-size: 25px;
+  }
+  #var{
+    text-align: right;
+    margin-top: -2vh;
+  }
+  #Nyitva{
+    float: center;
+    margin-top: -6vh;
+    width: 20%;
+    height: 40%;
+    margin-left: 35vh;
+  }
+  .napok{
+    width: 30%;
+    text-align: left;
+    height: 2vh;
+    margin-left: 53vh;
+  }
   .pk{
     padding-top: -20vh;
     margin-top: -2.5vh;
