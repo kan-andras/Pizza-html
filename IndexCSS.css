@@ -60,14 +60,18 @@ ul {
   #szer{
     float: left;
     margin-top: -3vh;
-    margin-left: 30.5vh;
+    margin-left: 25%;
     text-align: right;
     font-size: 25px;
+  }
+  .cen{
+    text-align: center;
   }
   #var{
     text-align: right;
     margin-top: -2vh;
   }
+<<<<<<< HEAD
   .adat{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -125,35 +129,37 @@ td{
 .jobb p {
     margin-bottom: 10px;
 }
+=======
+>>>>>>> f10576b3cc75c92f2cd60b462e82313aa91d42e9
   .pk{
     padding-top: -20vh;
     margin-top: -2.5vh;
-    margin-left: 30vh;
+    margin-left: 20%;
     position: absolute;
     font-style: italic;
   }
   #pk2{
     margin-top: -2.5vh;
     position: absolute;
-    margin-left: 5.5vh;
+    margin-left: 5%;
     font-style: italic;
   }
   #pk3{
     margin-top: -2.5vh;
     position: absolute;
-    margin-left: 3.5vh;
+    margin-left: 4%;
     font-style: italic;
   }
   #pk4{
     margin-top: -2.5vh;
     position: absolute;
-    margin-left: 15vh;
+    margin-left: 10%;
     font-style: italic;
   }
   #pk5{
     margin-top: -2.5vh;
     position: absolute;
-    margin-left: 12vh;
+    margin-left: 8%;
     font-style: italic;
   }
   #spec{
@@ -175,6 +181,7 @@ td{
     font-size: 20px;
     border: 1px white solid;
 }
+<<<<<<< HEAD
  
  #footer{
   border-top: gray 1px solid;
@@ -187,6 +194,24 @@ td{
  #footer p{
   padding-top: 10vh;
  }
+=======
+.cen, td{
+  border-bottom: white 1px solid;
+  text-align: left;
+  margin-left: 38%;
+  float: center;
+  width: 35%;
+  margin-top: -5%;
+ }
+ #nyit{
+  border-bottom: black 0px solid;
+  padding-bottom: 15%;
+ }
+ table{
+  border-spacing: 10px 5px;
+ }
+ 
+>>>>>>> f10576b3cc75c92f2cd60b462e82313aa91d42e9
 .Menu{
     color: white;
     border: 1px, solid, white;
@@ -254,10 +279,9 @@ td{
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10; }
     .gallery__img {
-        width: 90%;
+        width: 100%;
         height: 100%;
         object-fit: cover;
-        background-position-y: 5vh;
     }
   h5{
     color:darkgray;
