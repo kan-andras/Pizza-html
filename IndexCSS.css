@@ -71,7 +71,7 @@ ul {
     text-align: right;
     margin-top: -2vh;
   }
-<<<<<<< HEAD
+
   .adat{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -129,8 +129,7 @@ td{
 .jobb p {
     margin-bottom: 10px;
 }
-=======
->>>>>>> f10576b3cc75c92f2cd60b462e82313aa91d42e9
+
   .pk{
     padding-top: -20vh;
     margin-top: -2.5vh;
@@ -181,8 +180,8 @@ td{
     font-size: 20px;
     border: 1px white solid;
 }
-<<<<<<< HEAD
- 
+
+
  #footer{
   border-top: gray 1px solid;
   width: 60%;
@@ -194,7 +193,7 @@ td{
  #footer p{
   padding-top: 10vh;
  }
-=======
+
 .cen, td{
   border-bottom: white 1px solid;
   text-align: left;
@@ -211,7 +210,7 @@ td{
   border-spacing: 10px 5px;
  }
  
->>>>>>> f10576b3cc75c92f2cd60b462e82313aa91d42e9
+
 .Menu{
     color: white;
     border: 1px, solid, white;
