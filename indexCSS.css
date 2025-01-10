@@ -392,37 +392,93 @@ td{
     float: right;
     text-align: left;
     width: 100%;
-    margin-top: 4%;
-    margin-right: 5%;
+    margin-top: -1%;
+    margin-right: -15%;
     }
     #tort{
       float: left;
       text-align: right;
-      margin-left:20%;
-      margin-top: 4%;
+      margin-top:2.5%;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 120%;
       width: -40%;
     }
     .oldal{
       background-color: rgb(34, 34, 34);
-      width: 110%;
+      width: 100%;
       height: 30vh;
       color: white;
       margin-top: -1.5%;
     }
     #tort h3{
     width: 50%;
-    margin-left: 80%;
+    margin-left: 100%;
     margin-top: -10%;
     }
     h5{
       margin-top: -2vh;
       width: 50%;
-      margin-left: 80%;
+      margin-left: 100%;
     }
 }
-
+@media (max-width: 1080px){
+  #szoveg p{
+    float: right;
+    width: 120%;
+    margin-right: -35%;
+    margin-top: 4%;
+    }
+  #tort{
+    width: 10%;
+    margin-left: 35%;
+  }
+  .oldal{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 34vh;
+    color: white;
+    margin-top: -1.5%;
+  }
+  #tort h3{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: -8%;
+    }
+    h5{
+      margin-top: -2vh;
+      width: 50%;
+      margin-left: 30%;
+    }
+}
+@media (max-width: 1050px){
+  #szoveg p{
+    float: right;
+    width: 120%;
+    margin-right: -40%;
+    margin-top: 5%;
+    }
+  #tort{
+    width: 10%;
+    margin-left: 35%;
+  }
+  .oldal{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 32vh;
+    color: white;
+    margin-top: -1.5%;
+  }
+  #tort h3{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: -5%;
+    }
+    h5{
+      margin-top: -2vh;
+      width: 50%;
+      margin-left: 30%;
+    }
+}
 
 @media (max-width: 1000px){
   #szoveg p{
@@ -445,7 +501,7 @@ td{
   #tort h3{
     width: 50%;
     margin-left: 30%;
-    margin-top: -10%;
+    margin-top: -2%;
     }
     h5{
       margin-top: -2vh;
@@ -459,7 +515,7 @@ td{
     text-align: left;
     width: 130%;
     margin-top: 4%;
-    margin-right: -20%;
+    margin-right: -40%;
     }
     #tort{
       float: left;
@@ -476,13 +532,12 @@ td{
   }
   #tort h3{
     width: 50%;
-    margin-left: 80%;
-    margin-top: -10%;
+    margin-left: 130%;
     }
     h5{
       margin-top: -2vh;
       width: 50%;
-      margin-left: 80%;
+      margin-left: 130%;
     }
 }
 @media (max-width: 900px){
@@ -503,8 +558,11 @@ td{
     float: right;
     text-align: left;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-right: -10%;
+    }
+    #szoveg u{
+      margin-top: 4%;
     }
   .oldal{
     margin-right: 80%;
@@ -518,6 +576,16 @@ td{
     width: 350%;
     right: 60%;
   }
+  #tort h3{
+    width: 50%;
+    margin-left: -20%;
+    margin-top: 2%;
+    }
+    h5{
+      margin-top: -2vh;
+      width: 50%;
+      margin-left: -20%;
+    }
   
   .menu1 li {
     margin: 5px 0;
@@ -574,7 +642,85 @@ td{
   }
   }
 
+  @media (max-width: 800px){
+    #fejlec{
+      width: 100%;
+      height:250px;
+      text-align: left;
+      margin: 0 auto;
+      background-position: center;
+      background-position-y: 50%;
+      padding: 0.01em;
+      background-size: 140%;
+      color: #ffffff;
+      background-color: rgb(34, 34, 34);
+  
+    }
+    #szoveg p{
+      float: right;
+      text-align: left;
+      width: 100%;
+      margin-top: 6%;
+      margin-right: -8%;
+      }
+    .oldal{
+      margin-right: 80%;
+      height: 30vh;
+    }
+  }
 
+  @media (max-width: 710px){
+    #fejlec{
+      width: 100%;
+      height:250px;
+      text-align: left;
+      margin: 0 auto;
+      background-position: center;
+      background-position-y: 50%;
+      padding: 0.01em;
+      background-size: 140%;
+      color: #ffffff;
+      background-color: rgb(34, 34, 34);
+  
+    }
+    #szoveg p{
+      float: right;
+      text-align: left;
+      width: 100%;
+      margin-top: 1%;
+      margin-right: -9%;
+      }
+    .oldal{
+      margin-right: 80%;
+      height: 30vh;
+    }
+  }
+  @media (max-width: 650px){
+    #fejlec{
+      width: 100%;
+      height:250px;
+      text-align: left;
+      margin: 0 auto;
+      background-position: center;
+      background-position-y: 50%;
+      padding: 0.01em;
+      background-size: 140%;
+      color: #ffffff;
+      background-color: rgb(34, 34, 34);
+  
+    }
+    #szoveg p{
+      float: right;
+      text-align: left;
+      width: 100%;
+      margin-top: 3%;
+      margin-right: -9%;
+      }
+    .oldal{
+      margin-right: 80%;
+      height: 30vh;
+    }
+  }
 @media (max-width: 350px) {
   .menu1 {
     display: none;
